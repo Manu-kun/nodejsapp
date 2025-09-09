@@ -3,7 +3,7 @@ job('Aplicacion Node.js DSL') {
     scm {
         git('https://github.com/Manu-kun/nodejsapp.git', 'master') { node ->
             node / gitConfigName('Manu-kun')
-            node / gitConfigEmail('mbaenamira000@gmail.com')
+            node / gitConfigEmail('71195299+Manu-kun@users.noreply.github.com')
         }
     }
     triggers {
